@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "copy-SharkCoinStakingAbi": "copy .\\build\\contracts\\SharkCoinStaking.json .\\sharkcoin-staking\\src\\SharkCoinStaking.json",
+    "copy-SharkCoinAbi": "copy .\\build\\contracts\\SharkCoin.json .\\sharkcoin-staking\\src\\SharkCoin.json"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "web3": "^4.6.0"
+  }
+}
